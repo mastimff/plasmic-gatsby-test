@@ -109,7 +109,7 @@ function PlasmicHome__RenderFunc(props) {
                       sty.text__ewTY
                     )}
                   >
-                    {"Make your website"}
+                    {"Make your test"}
                   </div>
 
                   <div
@@ -119,7 +119,7 @@ function PlasmicHome__RenderFunc(props) {
                       sty.text__zbiUj
                     )}
                   >
-                    {"wonderful"}
+                    {"aewsome"}
                   </div>
                 </div>
 
@@ -202,87 +202,92 @@ function PlasmicHome__RenderFunc(props) {
               className={classNames(projectcss.all, sty.columns)}
             >
               <div className={classNames(projectcss.all, sty.column___9OpVx)}>
-                <p.Stack
-                  as={"div"}
-                  hasGap={true}
-                  className={classNames(projectcss.all, sty.freeBox__p15B)}
-                >
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__pGr
-                    )}
+                {true ? (
+                  <p.Stack
+                    as={"div"}
+                    hasGap={true}
+                    className={classNames(projectcss.all, sty.freeBox__p15B)}
                   >
-                    {"Powerful suite of tools"}
-                  </div>
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__pGr
+                      )}
+                    >
+                      {"Powerful suite of tools"}
+                    </div>
 
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__o5520
-                    )}
-                  >
-                    {
-                      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa."
-                    }
-                  </div>
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__o5520
+                      )}
+                    >
+                      {
+                        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa."
+                      }
+                    </div>
 
-                  <FeatureCard
-                    className={classNames(
-                      "__wab_instance",
-                      sty.featureCard__jE1LM
-                    )}
-                    description={
-                      "Taking collaboration to the next level with security and administrative features built for teams"
-                    }
-                    iconBack={
-                      <LightningIcon
-                        className={classNames(projectcss.all, sty.svg__ikXi)}
-                        role={"img"}
-                      />
-                    }
-                    long={true}
-                    title={"Building the Simple ecosystem"}
-                  />
+                    <FeatureCard
+                      className={classNames(
+                        "__wab_instance",
+                        sty.featureCard__jE1LM
+                      )}
+                      description={
+                        "Taking collaboration to the next level with security and administrative features built for teams"
+                      }
+                      iconBack={
+                        <LightningIcon
+                          className={classNames(projectcss.all, sty.svg__ikXi)}
+                          role={"img"}
+                        />
+                      }
+                      long={true}
+                      title={"Building the Simple ecosystem"}
+                    />
 
-                  <FeatureCard
-                    className={classNames(
-                      "__wab_instance",
-                      sty.featureCard__cAmPw
-                    )}
-                    description={
-                      "Taking collaboration to the next level with security and administrative features built for teams"
-                    }
-                    iconBack={
-                      <HammerIcon
-                        className={classNames(projectcss.all, sty.svg__fLroa)}
-                        role={"img"}
-                      />
-                    }
-                    long={true}
-                    title={"Building the Simple Ecosystem"}
-                  />
+                    <FeatureCard
+                      className={classNames(
+                        "__wab_instance",
+                        sty.featureCard__cAmPw
+                      )}
+                      description={
+                        "Taking collaboration to the next level with security and administrative features built for teams"
+                      }
+                      iconBack={
+                        <HammerIcon
+                          className={classNames(projectcss.all, sty.svg__fLroa)}
+                          role={"img"}
+                        />
+                      }
+                      long={true}
+                      title={"Building the Simple Ecosystem"}
+                    />
 
-                  <FeatureCard
-                    className={classNames(
-                      "__wab_instance",
-                      sty.featureCard___8Aki
-                    )}
-                    description={
-                      "Taking collaboration to the next level with security and administrative features built for teams"
-                    }
-                    iconBack={
-                      <PencilIcon
-                        className={classNames(projectcss.all, sty.svg___3BoH3)}
-                        role={"img"}
-                      />
-                    }
-                    long={true}
-                    title={"Building the Simple Ecosystem"}
-                  />
-                </p.Stack>
+                    <FeatureCard
+                      className={classNames(
+                        "__wab_instance",
+                        sty.featureCard___8Aki
+                      )}
+                      description={
+                        "Taking collaboration to the next level with security and administrative features built for teams"
+                      }
+                      iconBack={
+                        <PencilIcon
+                          className={classNames(
+                            projectcss.all,
+                            sty.svg___3BoH3
+                          )}
+                          role={"img"}
+                        />
+                      }
+                      long={true}
+                      title={"Building the Simple Ecosystem"}
+                    />
+                  </p.Stack>
+                ) : null}
               </div>
 
               <div className={classNames(projectcss.all, sty.column__fPbJ)}>
